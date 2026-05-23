@@ -5,6 +5,16 @@
 > Every team here shipped an AI agent. Almost none tested it for prompt injection.
 > Aegis is a swarm of Gemini 3.5 Flash sub-agents that **breaks an AI agent and then hardens it — autonomously, in a closed loop.**
 
+<div align="center">
+  <a href="https://www.loom.com/share/d7bc86fcc85f41e295fca588c5753db0">
+    <h3>🛡️ Aegis Evaluates and Self Hardens Agents — Watch Demo</h3>
+  </a>
+  <br />
+  <a href="https://www.loom.com/share/d7bc86fcc85f41e295fca588c5753db0">
+    <img src="https://cdn.loom.com/sessions/thumbnails/d7bc86fcc85f41e295fca588c5753db0-59bb710e4d450eba-full-play.gif" width="700" alt="Aegis Demo Walkthrough" />
+  </a>
+</div>
+
 ---
 
 ## 💡 The Problem
