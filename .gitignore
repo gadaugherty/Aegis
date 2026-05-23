@@ -1,0 +1,17 @@
+# Local Environment Configuration / Keys
+.env
+*.env
+api_key.txt
+secrets.json
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+venv/
+.venv/
+
+# System specific files
+.DS_Store
+Thumbs.db
