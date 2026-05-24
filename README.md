@@ -1,4 +1,4 @@
-# 🛡️ Aegis — Autonomous Purple-Team Swarm
+# Aegis — Autonomous Purple-Team Swarm
 
 **Built at Google I/O 2026 Hackathon · Powered by Gemini 3.5 Flash**
 
@@ -7,7 +7,7 @@
 
 <div align="center">
   <a href="https://www.loom.com/share/d7bc86fcc85f41e295fca588c5753db0">
-    <h3>🛡️ Aegis Evaluates and Self Hardens Agents — Watch Demo</h3>
+    <h3>Aegis Evaluates and Self Hardens Agents — Watch Demo</h3>
   </a>
   <br />
   <a href="https://www.loom.com/share/d7bc86fcc85f41e295fca588c5753db0">
@@ -17,7 +17,7 @@
 
 ---
 
-## 💡 The Problem
+## The Problem
 
 Red-team tools for LLMs (Garak, PyRIT, promptfoo) *find* holes. They hand you a list of failures and stop. A human still has to read the report, write the fix, deploy it, and re-test by hand.
 
@@ -47,7 +47,7 @@ Aegis closes that loop. It finds the hole, **writes the guardrail, applies it, a
 
 ---
 
-## 🛠️ System Architecture & Sub-Agent Roster
+## System Architecture & Sub-Agent Roster
 
 A round of Aegis runs three specialist attacker sub-agents **in parallel** against a target agent using a multi-step asynchronous execution framework. Each sub-agent targets a distinct vulnerability layer:
 
@@ -65,7 +65,7 @@ A round of Aegis runs three specialist attacker sub-agents **in parallel** again
 
 ---
 
-## 📈 Real Telemetry: Verified Run Matrix
+## Real Telemetry: Verified Run Matrix
 
 During our evaluation run against a target financial helper bot, Aegis successfully achieved full environment stabilization in **2 rounds**:
 
@@ -79,7 +79,7 @@ During our evaluation run against a target financial helper bot, Aegis successfu
 
 ---
 
-## 🚀 Why This is New (Built for the Gemini 3.5 Agentic Era)
+## Why This is New (Built for the Gemini 3.5 Agentic Era)
 
 Aegis maximizes the true engineering intent behind **Gemini 3.5 Flash**:
 * **High-Throughput Sub-Agent Deployment:** Running concurrent red-team mutations requires immense execution speed. Gemini 3.5 Flash handles multi-agent parallel operations with lightning-fast token generation times.
@@ -88,7 +88,7 @@ Aegis maximizes the true engineering intent behind **Gemini 3.5 Flash**:
 
 ---
 
-## 💻 Quickstart & Visual Console Replay
+## Quickstart & Visual Console Replay
 
 ### 1. Setup Environment
 ```bash
